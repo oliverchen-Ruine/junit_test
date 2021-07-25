@@ -1,0 +1,10 @@
+E ( E-->TE’
+E i E-->TE’
+E n E-->TE’
+E’ + E’-->+TE’
+E’ - E’-->-TE’
+E’ ) E’-->~
+E’ # E’-->~
+T ( T-->(E)
+T i T-->i
+T n T-->n

@@ -40,7 +40,7 @@ public class WaterFlowerTest {
         int result,Max=1000,Min=100;
         for(int i:number){
             result=waterFlower.result(i);
-            assertEquals("水仙花数计算出错",1,result);
+            assertEquals("水仙花数计算出错",1,result);//message表示错误信息，expected表示期望值，result表示实际值
         }
         List<int[]> list = Arrays.asList(number);
         for (int j=0;j<=4;j++){
